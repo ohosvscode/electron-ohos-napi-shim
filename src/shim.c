@@ -1260,5 +1260,3 @@ int uv_async_send(void* async) {
     ensure_electron_symbols_resolved();
     return g_electronSymbolTable.uv_async_send(async);
 }
-
-// 完整版本 - 所有函数都已实现
